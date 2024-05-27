@@ -1,0 +1,469 @@
+/* Ghi Nhớ {
+    width:uset;nghia là bỏ chiểu ngang mặc định 
+    1rem = 16px , tương đương vậy , nếu 1.4rem thì = 1.4 nhân 16px sẽ ra số px đó ;
+    font-size: 32px;CỠ CHỮ - có thẻ thay px bằng em , chức năng khi thay đơn vị bằng em người ta có thể thay đổi được trang web của bạn khi họ truy cập vào (1em = 16px; )
+    font-size:10vw (Viewport là kích thước cửa sổ trình duyệt. 1vw = 1% chiều rộng khung nhìn. Nếu khung nhìn rộng 50cm thì 1vw là 0,5cm)
+    font-family:Arial, Helvetica, sans-serif; Phông chữ an toàn dung cho trang web . ( Có rất nhiều phông chữ bạn có thể sử dụng tùy ý )
+    font-variant: small-caps(Nó sẽ đổi chữ thường thành chữ hoa nhưng chữ hoa nhỏ hơn văn bản mặc định ) normal(văn bản bình thu
+    font-style:normal(Văn bản bình thường ) italic(Văn bản chữ in nghiêng) oblique (Văn bản cũng giống như chữ in nghiêng nhưng ít được sủ dụng ) 
+    color:dodgerblue;MÀU CHỮ 
+    font-weight:bold;ĐỘ ĐẬM CỦA CHỮ 
+     transform: scaleY(5);: làm tăng chiều dài chữ DỌC
+     transform: scaleX(5);: làm tăng chiều dài chữ NGANG 
+    color: inherit; Xoa chữ link màu xanh trên thẻ cha 
+    text-transform:uppercase;VIẾT HOA 
+    opacity: 0.60;(Căn chỉnh độ đậm nhạt của chữ )
+    text-decoration:underline; GẠCH CHÂN CHỮ 
+    border:1px solid; Độ đậm khung viền TẤT CẢ 4 VIỀN ĐỀU KÍCH CỠ NHƯ NHAU
+*border-width:  medium|thin|thick|length|initial|inherit;
+     medium:Chỉ định một đường viền trung bình. Đây là mặc định
+     thin : Chỉ định một đường viền mỏng
+     thick : Chỉ định đường viền dày
+     length : Cho phép bạn xác định độ dày của đường viền. Đọc về đơn vị độ dài
+     initial : Đặt thuộc tính này thành giá trị mặc định của nó. Đọc về ban đầu
+     inherit: Kế thừa thuộc tính này từ phần tử cha của nó. Đọc về kế thừa
+
+*list-style-type:none; (Nó dùng để ẩn phần tử ul hoặc li khi xuất hiện Dấu chấm trước văn bản )
+
+
+
+   <pre>VIẾT VĂN BẢN NHƯ THẾ NÀO THÌ NÓ HÌNH DẠNG NHƯ VẬY , GIỐNG VIẾT THƠ  </pre>
+   <hr> NGẮT DÒNG GẠCH NGANG TRONG VĂN BẢN </hr>
+   </br> Xuống dòng văn bản 
+   MAX-WIDTH:thuộc tính được sử dụng để đặt chiều rộng tối đa của một phần tử.
+   
+**BORDER
+    border:1px 2px solid red ;ĐỌ RỘNG ĐƯỜNG VIỀN TRÊN DƯỚI 2 BÊN LẦN LƯỢT 1px - 2px;
+    border-color:red; MÀU VIỀN 
+    border-radius :5px; ĐỘ CONG TRÒN CỦA ĐƯỜNG VIỀN 
+    border-top-style: dotted;KIỂU VIỀN TRÊN CÙNG 
+    border-right-style: solid;KIỂU VIỀN BÊN PHẢI 
+    border-bottom-style: dotted;KIỂU VIỀN BÊN DUỚI 
+    border-left-style: solid;KIỂU VIỀN BÊN TRÁI 
+    border-right:5px solid red ; ĐƯỜNG VIỀN RIÊNG LẺ 1 CẠNH 
+    background-color:rgb(159, 255, 249) ; MÀU NỀN 
+    opacity:0.9;ĐỘ MỜ/ĐỘ TRONG SUỐT 
+
+**VĂN BẢN  
+   text-align: justify;(mỗi dòng được kéo dài sao cho mỗi dòng có chiều rộng bằng nhau và lề trái và phải đều thẳng (như trong tạp chí và báo)
+   text-align-last:(right, left, center,justify)  (chỉ định cách căn chỉnh dòng cuối cùng của văn bản )
+   direction: rtl; unicode-bidi: bidi-override; (2 dòng lệnh này làm chữ tỏng văn bản bị đổi sau lên trước vd như chữ dog thì đổi lại thành god)
+
+   text-decoration-line:(Thuộc tính để trang trí văn bản )
+           overline:Trang trí văn bản phác thảo
+           line-through:Trang trí văn bản theo dòng
+           underline:Gạch chân trang trí văn bản
+           overline underline:Trang trí văn bản gạch chân và gạch chân.
+   
+    text-decoration-color:(được sử dụng để thiết lập màu của đường trang trí.)
+           red ; blue ; green ;yellow ;..... 
+    
+    text-decoration: none; (Nó có thuộc tính xóa phần gạch chân vd như đường link )
+
+    text-decoration-thickness:(tính được sử dụng để thiết lập độ dày của đường trang trí)
+           5px; auto ; 25% ........
+    
+    text-decoration-style:(được sử dụng để thiết lập kiểu dáng của đường trang trí.)
+           solid;double; dotted;dashed;wavy;   
+
+**TEXT-TRANSFORM 
+     text-transform: uppercase;(CHUYỂN ĐỔI VĂN BẢN THÀNH CHỮ HOA )
+     text-transform: lowercase;(chuyển đổi văn bản thành chữ thường)
+     text-transform: capitalize;(Chuyển Đổi Văn Bản Thành Chữ Hoa)
+
+** TRANSFORM 
+   transform:scale(X , Y) (thuộc tính này là có thể làm  kích thước co dãn hoặc thu nhỏ  phần tử của chiều ngang hoặc chiều rộng )
+   transfrom:rotato (45deg): Nghĩa là thuộc tính này có thể xoay 45 độ là đương , còn -45deg thì nó sẽ xoay ngược lại -45 độ 
+   transform: translateX() translateY(); Thuộc tính này dùng để dy chuyển phần tử căn chỉnh thích hợp 
+   X : là dy chuyển sang phải 
+   Y là dy chuyển xuống dưới 
+   
+   
+
+
+**KKHOẢNG CÁCH VĂN BẢN 
+     text-indent:15px; (Khoảng cách lùi dòng chữ đầu khoảng 15px;)
+     letter-spacing:2px ; -2px; (Khoảng cách các chữ trong 1 văn bản )
+     line-height:0.7 ; 1.2.... (tính được sử dụng để chỉ định khoảng cách giữa các dòng , Tiếng Việt   thì 1.6 , còn Tiếng Anh thì 1.4)
+
+**Display 
+     display:inline-block; (là hiển thị các mục danh sách theo chiều ngang thay vì theo chiều dọc có thể tăng độ rộng cao kích thuớc )
+     display: inline;(Hiện thị danh sách link dưới dạng  thanh menu sẽ nằm ngang ) 
+     display: block;(Hiện thị các phần tử span dưới dạng phần tử khối )
+     display: none;(Thuộc tính này sẽ làm ẩn phần tử )
+     visibility: hidden;(Thuộc tính này cũng ẩn nhưng nó vân chiếm không gian dung lượng )
+     
+**MARGIN  
+
+     margin-top: 100px;  ĐIỀU CHỈNH ĐỂ CĂN LỀ CHO  KHUNG VĂN BẢN HỢP LÝ 
+     margin-bottom: 100px;ĐIỀU CHỈNH ĐỂ CĂN LỀ CHO  KHUNG VĂN BẢN HỢP LÝ 
+     margin-right: 150px;ĐIỀU CHỈNH ĐỂ CĂN LỀ CHO  KHUNG VĂN BẢN HỢP LÝ 
+     margin-left: 80px;ĐIỀU CHỈNH ĐỂ CĂN LỀ CHO  KHUNG VĂN BẢN HỢP LÝ
+
+**POSITION
+      [position:relative; ] 
+      CĂN CHỈNH HÌNH ẢNH TRÁI PHẢI LÊN XUỐNG LỆNH CSS:
+      position: relative;(lệnh này khi nhập thuộc tính relative thì nó sẽ đè được lên chữ người khác)
+          right:?px;
+          left:?px;
+          bottom:?px;
+          top:?px;
+
+     [position:absolute;]
+      Lệnh này nó sẽ tìm phần tử cha gần nhất để áp dụng vào thuộc tính (nó còn sử dụng để bao phủ hết phần tử cha )
+      Nếu muốn phần tử con bao phủ nền phần tử cha thì ko sử dụng width với height
+      Ta sẽ sử dụng 4 lệnh right , left , top ,bottom , sẽ cho 4 giá trị này bằng =0 )
+
+    [ position:fixed;]
+      Lệnh này khi code vào nó sẽ trở thành 1 tiêu đề trên hoặc dưới cùng dính sát với trang web , khi dy chuyển thì chúng ta vẫn thấy tiêu đề hiện bên trên hoặc dưới cùng)
+      weidth :....px (để đặt chiều cao tiêu đề tùy ý )
+      height:..px (để đặt chiều rộng tùy ý của tiêu đề) 
+      position:fixed;(đây là lệnh bắt buộc )
+      top:0; (thì nó sẽ dính sát bên trên  trang web )
+      bottom:0;(thì nó sẽ dính sát bên dưới trang web)
+      right:0;(Nó sẽ dính sát vào bên phải )
+      (Nếu bạn không thích căn chỉnh chiều rộng sao cho phù hợp thì bạn có thể chỉ dùng 1 lệnh height:..px  với 3 lệnh right , top , left =0 thì nó cũng sẽ tạo cho 1 tiêu đề phù hợp)
+
+      **POSITION:STICKY
+       (lệnh này đa số dùng trên các trình duyệt ít nhưng cũng phải sủ dụng đôi khi kết hợp với javascrip )
+        position:sticky;(bắt buộc )         
+        position:-webkit-sticky;(bắt buộc)
+        top hay bottom nhập số liệu tùy ý
+
+**Line-height:(Đặt chiều cao của các phần tử)
+     normal|number|length|initial|inherit;
+     line-height:10px;
+     line-height:20px;
+     line-height:2.5px; ......
+     
+
+ 
+
+**PADDING: 3px;TĂNG GIẢM KÍCH CỠ KHUNG CỦA ĐƯỜNG VIỀN 
+     PADDING :(3 giá trị)
+      Padding:: 25px 50px 75px; 
+      Padding: trên cùng là 25px
+      Padding: bên phải và bên trái là 50px
+      Padding: phía dưới là 75p 
+     PADDING:(2 GIÁ TRỊ )
+      Padding: 25px 50px;
+      Padding: trên và dưới là 25px
+      Padding: bên phải và bên trái là 50px
+
+
+**HIỆN THỊ ẢNH DỰ PHÒNG KHI ẢNH BỊ LỖI 
+    CSS:
+       background-image:url('Đây là ảnh chính '), url('/img..Đay là ảnh dự phòng khi ảnh chính bị lỗi ..') ;
+    HTML:
+       <img onerror="this.src='/img ...Đây là linh dự phòng'"  src="Link ảnh chính " ></img>
+
+
+
+**Mô hình hộp CSS về cơ bản là một hộp bao quanh mọi phần tử HTML. Nó bao gồm: 
+    borders, padding, margins, and the actual content.
+
+**Các cách căn giữa bằng [Lệnh line-height]
+   text-align:center;(bắt buộc )
+   height:200px;(bắt buộc )
+   line-height:200px;(nó phải bằng chièu cao của thuộc tính height mới căn giữa được )
+
+   * text-align:center;(bắt buộc)
+     right :0 ;
+     left :0; 
+    Thuộc tính trên nó cũng căn giữa 
+
+    * text-align:center;(bắt buộc)
+      width:100%
+     Thuộc tính này nói cũng căn giữa 
+
+    *text-align:center;(bắt buộc)
+     left:50%
+     transfrom: translateX(-50%);
+     Thuộc tính này cũng căn giữa 
+    *DÙNG CÁCH NÀO CĂN GIỮA HỢP LÝ LÀ ĐƯỢC DỄ HIỂU NHẤT*
+  
+
+     
+**BACKGROUND
+
+ background-image:url("img/meo.jpg") ; THÊM ẢNH NỀN 
+ background-repeat:no-repeat; KO LẶP LẠI NỀN 
+ background-repeat: repeat-x : lặp lại theo chiều ngang 
+ background-repeat: repeat-y : lặp lại theo chiều dọc 
+ background-repeat: repeat : lặp lại cả dọc cả ngang 
+ background-size:100px; (chỉnh kích thước ảnh nền )
+ background-size:contain(cho hình nền 1 khoảng trắng )
+ background-size:cover (cho  hình nền full màn hình ) 
+ background:[url() center / contain no-repeat ](có thể viết rút gọn trong 1 background gồm có ảnh nền , căn chỉnh ảnh , làm hình nền 1 khoảng trắng , không lặp lại ảnh nền)
+ background-origin:(border,padding,content,margin 4 thuộc tính này kết hợp với -box sẽ cho hình nền ảnh full viền border vs centent )
+ background-position:center top;CĂN CHỈNH ẢNH NỀN TRÁI - PHẢI - TRÊM - DƯỚI ( hoặc chỉnh ảnh dy chuyển mọi nơi sẽ dùng background-position:...px ..px ;)
+ background-attachment: fixed; CUỘN TRANG HÌNH NÊN VẪN ĐI THEO VĂN BẢN 
+ background-attachment: scroll; CUỘN TRANG HÌNH NỀN ĐỨNG YÊN }
+
+
+*border-style :TẠO KHUNG VIỀN BỐ CỤC {
+    dotted- Xác định đường viền chấm
+    dashed- Xác định đường viền nét đứt
+    solid- Xác định một đường viền vững chắc
+    double- Xác định đường viền kép
+    groove- Xác định đường viền có rãnh 3D. Hiệu ứng phụ thuộc vào giá trị màu viền
+    ridge- Xác định đường viền có gờ 3D. Hiệu ứng phụ thuộc vào giá trị màu viền
+    inset- Xác định đường viền chèn 3D. Hiệu ứng phụ thuộc vào giá trị màu viền
+    outset- Xác định đường viền đầu 3D. Hiệu ứng phụ thuộc vào giá trị màu viền
+    none- Xác định không có đường viền
+    hidden- Xác định đường viền ẩn
+ 
+*CSS-outline: (viền là một đường được vẽ bên ngoài đường viền của phần tử)
+    ** outline-width :tính chỉ định chiều rộng của đường viền 
+    ** outline-color :tính được sử dụng để đặt màu của đường viền.
+    **Outline - Shorthand : là thuộc tính tốc ký để thiết lập các thuộc tính phác thảo riêng lẻ sau:
+             outline-width
+             outline-style(yêu cầu)
+             outline-color
+    ** outline-offset : tính thêm khoảng trống giữa đường viền và cạnh/viền của một phần tử
+
+**DY CHUYỂN ĐƯỜNG LINK TRÁI PHẢI TRÊN XUỐNG :
+      DY CHUYỂN SANG BÊN PHẢI 10px: margin-right: 10px;
+      DY CHUYỂN CÁC LIÊN KẾT XUỐNG PHÍA DƯỚI: margin-bottom: 10px; Di chuyển xuống phía dưới 10px 
+      DY CHUYỂN SANG BÊN TRÁI 10px: position: relative; left: -10px;*/
+   
+/* CHỈNH KÍCH THƯỚC ẢNH TO NHỎ và khung nữa 
+     width :?px;
+     height:?px; */
+
+** TẠO BIẾN ĐỔI 
+
+/* h1:hover {
+    color:brown;(khi dy chuyển chuột lại chữ nó mới xuất hiện màu)
+} */
+
+/* h1:checked ~ h1 {
+    color:red;  //Lệnh này nó sẽ css cho phần tử input khi chúng ta ấn vào input checkbox , thì phần tử h1 sẽ biến đổi thành css mà red ; 
+}
+/* h1:active { 
+    color:brown;(khi bấm và dữ dữ chuột lại chữ nó mới xuất hiện màu )
+} */
+x
+/* h1:first-child {
+    color:browm;(tương tự như các thuộc tính phần tử đầu ,nó có thể thay cho các thuộc tính phần tử nhỏ như ul ;li )
+}
+::target{
+    
+}
+
+h1:last-child {
+ color:bromn; ( tương tự như thuộc tính trên , đây là phần cuối phần tử nhỏ của ul ; li  )
+} */
+
+/* h1::before {
+    Nó sẽ viết trước 1 phần tử của thằng chúng ta viết lên css đó 
+    color:red; (nó  cũng tương tự  như các cái trênm có thể thêm các thuộc tính bình thường  )
+    content:("Viết nội dung gì cx được miễn là phải có content mới có thể sử dụng before nó sẽ tạo ra được 1 khoảng trắng trong 1 cái nền trong css")
+    display: block;(bắt buộc phải có gọi là element giả )
+} */
+
+/* h1::after {
+    Nó sẽ viết sau 1 phần tử của thằng chúng ta viết lên css đó 
+    color:red; (nó  cũng tương tự  như các cái trênm có thể thêm các thuộc tính bình thường  )
+    content:("Viết nội dung gì cx được miễn là phải có content mới có thể sử dụng before nó sẽ tạo ra được 1 khoảng trắng trong 1 cái nền trong css")
+    display: block;(bắt buộc phải có gọi là element giả )
+} */
+/* 
+h1::first-letter {
+    font-size: 50px;(chữ cái đầu tiên trong hàng sẽ to lên )
+} */
+/* 
+h1::first-line {
+    font-size: 50px; (có 2 hàng trong văn bản thì hàng thứ 1 sẽ bị ảnh hưởng )
+} */
+/* h1::selection {
+    color:red;
+    background-color: aliceblue;(Bôi đen từng chữ hoặc từng hàng sẽ cho ra tính chất màu )
+    Nó còn áp dùng vào cusor với outline 
+} 
+*/
+** KẾT THÚC Biến Đổi 
+/*
+
+*/
+** FLOAT 
+/*
+
+   float: none|left|right|initial|inherit;
+  5 thuộc tính này tính chỉ định 1 phần tử sẽ nôi sang trái hay phải 
+  none :Phần tử không nổi sẽ được hiển thị ngay tại nơi nó xuất hiện trong văn bản. Đây là mặc định)
+  left: Phần tử nổi ở bên trái vùng chứa của nó
+  right:Phần tử nổi bên phải vùng chứa của nó
+  initial:Đặt thuộc tính này thành giá trị mặc định của nó. Đọc về ban đầu
+  inherit:Kế thừa thuộc tính này từ phần tử cha của nó. Đọc về kế thừa
+
+**CURSOR 
+  cursor: Nó là thuộc tính để tạo con trỏ chuột mới , có rất nhiều thuộc tính tha hồ lựa chọn 
+
+**Z-INDEXT
+  z-indext:1;(Nó sẽ giúp phần tử che đi phần tử khác , khi dùng lệnh đó thì nó là phần tử cha và không ai có thể chồng lên nó )
+
+**Trường hợp khi padding ở giữa mà chuẩn , nhưng mà 2 bên trái và phải thì nó không được thẳng hàng như trên
+chúng ta phải dùng 2 lệnh margin-left:...Giá trị âm px ; Với margin-right:...Giá trị âm px; 
+
+**Icon 
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> (Đoạn mã html  dùng để thực hiện lệnh css icon)
+
+*/
+** FLEXBOOK
+/* 
+   *FLEX 
+    --flex: 1 0 50%; /* flex-grow: 1, flex-shrink: 0, flex-basis: 50% ;
+   
+    flex-shrink:0 ; khi cho một phần tử, bạn đang nói rằng phần tử đó không được phép co lại và sẽ giữ nguyên kích thước của nó.  
+   
+    *Flex-direction
+
+   - flex-direction:row ; nó sẽ trả giá trị về mặc định và sắp sếp đúng thứ tự từ trái sang phải (1-2-3-4-5)
+   - flex-direction:row-reverse ;Nó sẽ trả giá trị ngược lại với row , hướng của nó nằm ngang và chiều từ phải sang trái (5-4-3-2-1)
+   - flex-direction:column ; Khi bạn sử dụng giá trị này, các phần tử con trong container flex sẽ được xếp theo chiều dọc, từ trên xuống.(1-2-3-4-5)
+   - flex-direction:column-reverse:;Khi sử dụng giá trị này, các phần tử con trong container flex sẽ được xếp theo chiều dọc, nhưng theo hướng ngược lại, từ dưới lên.(5-4-3-2-1)
+   
+   *Flex-wrap
+   - flex-wrap: nowrap, nó chỉ định rằng các phần tử con sẽ không được phép xuống dòng (không wrap) và sẽ được xếp trên một dòng duy nhất. Điều này có nghĩa là nếu không có đủ không gian để chứa tất cả các phần tử con trên một dòng, chúng sẽ bị coi là tràn ra ngoài khỏi container.
+   - flew-wrap:wrap ;nó chỉ định rằng các phần tử con có thể được phép wrap (xuống dòng) nếu không đủ không gian để xếp chúng trên cùng một dòng. Nếu không có đủ không gian, các phần tử sẽ xuống dòng và bắt đầu một dòng mới trong container.
+   - flex-wrap:wrap-reserve ; nó chỉ định rằng các phần tử con trong container flex có thể wrap (xuống dòng) nếu không đủ không gian và wrap theo chiều dọc, nhưng thứ tự xuống dòng sẽ là ngược lại, bắt đầu từ dưới lên
+   
+   *Align-Items 
+   -align-items:flex-start;được sử dụng để căn chỉnh các phần tử con trong container flex theo chiều dọc sao cho chúng sẽ được đặt ở phía trên của container, Nói cách khác, nếu chiều cao của các phần tử con không giống nhau, chúng sẽ được đặt ở phía trên của container.
+   -align-items:flex-end;được sử dụng để căn chỉnh các phần tử con trong container flex theo chiều dọc sao cho chúng sẽ được đặt ở phía dưới của container.Nói cách khác, nếu chiều cao của các phần tử con không giống nhau, chúng sẽ được đặt ở phía dưới của container.
+   -align-items:center; được sử dụng để căn chỉnh các phần tử con trong container flex theo chiều dọc sao cho chúng sẽ được đặt ở giữa của container.Nói cách khác, nếu chiều cao của các phần tử con không giống nhau, chúng sẽ được căn giữa theo chiều dọc của container.
+   -align-items:baseline; được sử dụng để căn chỉnh các phần tử con trong container flex theo chiều dọc sao cho chúng sẽ được căn dựa trên dòng cơ sở (baseline) của nội dung của chúng.
+   -align-items:stretch;được sử dụng để căn chỉnh các phần tử con trong container flex theo chiều dọc và tự động kéo dãn chúng để lấp đầy toàn bộ chiều cao của container.
+   
+   *Align-content
+   -align-content :flex-start;được sử dụng để căn chỉnh các dòng trong container flex theo chiều dọc sao cho chúng sẽ được đặt ở phía trên cùng của container, tương tự như align-items: flex-start nhưng áp dụng cho toàn bộ các dòng.Nếu container flex chỉ chứa một dòng, align-content không có ảnh hưởng. Nó chỉ có tác dụng khi có nhiều dòng trong container.
+   -align-content :flex-end; được sử dụng để căn chỉnh các dòng trong container flex theo chiều dọc sao cho chúng sẽ được đặt ở phía dưới cùng của container, tương tự như align-items: flex-end nhưng áp dụng cho toàn bộ các dòng.Nếu container flex chỉ chứa một dòng, align-content không có ảnh hưởng. Nó chỉ có tác dụng khi có nhiều dòng trong container.
+   -align-content :center;được sử dụng để căn chỉnh các dòng trong container flex theo chiều dọc sao cho chúng sẽ được đặt ở giữa của container, tương tự như align-items: center nhưng áp dụng cho toàn bộ các dòng.Nếu container flex chỉ chứa một dòng, align-content không có ảnh hưởng. Nó chỉ có tác dụng khi có nhiều dòng trong container.
+   -align-content :space-between;được sử dụng để căn chỉnh các dòng trong container flex theo chiều dọc sao cho chúng sẽ được phân bố một cách đều, với khoảng trống đều giữa chúng và ở hai bên của container.Nếu container flex chỉ chứa một dòng, align-content không có ảnh hưởng. Nó chỉ có tác dụng khi có nhiều dòng trong container.
+   -align-content :space-around; được sử dụng để căn chỉnh các dòng trong container flex theo chiều dọc sao cho chúng sẽ được phân bố một cách đều, với khoảng trống cả ở giữa chúng và ở hai bên của container. Khoảng trống giữa các dòng là như nhau và cũng có một nửa khoảng trống ở đầu và cuối container.Nếu container flex chỉ chứa một dòng, align-content không có ảnh hưởng. Nó chỉ có tác dụng khi có nhiều dòng trong container.
+   -align-content :stretch;được sử dụng để căn chỉnh các dòng trong container flex theo chiều dọc và tự động kéo dãn chúng để lấp đầy toàn bộ chiều cao của container.
+   
+   *Align-self 
+   -align-self:auto; Giữ nguyên giá trị align-items của container.
+   -align-self:flex-start; Căn chỉnh phần tử ở phía trên của container.
+   -align-self:flex-end; Căn chỉnh phần tử ở phía dưới của container.
+   -align-self:center; Căn chỉnh phần tử ở giữa của container.
+   -align-self:baseline; Căn chỉnh phần tử dựa trên dòng cơ sở của container.
+   -align-self:stretch; Kéo phần tử để nó phủ kín chiều cao của container.
+   *Justify-content   
+   -justify-content:flex-start;được sử dụng để căn chỉnh các phần tử con trong container flex theo chiều ngang sao cho chúng sẽ được đặt ở phía bắt đầu (bên trái nếu viết từ trái sang phải hoặc bên phải nếu viết từ phải sang trái).
+   -justify-content:flex-end; được sử dụng để căn chỉnh các phần tử con trong container flex theo chiều ngang sao cho chúng sẽ được đặt ở phía cuối (bên phải nếu viết từ trái sang phải hoặc bên trái nếu viết từ phải sang trái).
+   -justify-content:space-between;được sử dụng để căn chỉnh các phần tử con trong container flex theo chiều ngang sao cho chúng sẽ được phân bố một cách đều và lấp đầy toàn bộ chiều ngang của container, với khoảng cách đều giữa các phần tử con và ở giữa container.
+   -justify-content:center;được sử dụng để căn chỉnh các phần tử con trong container flex theo chiều ngang sao cho chúng sẽ được đặt ở giữa của container.
+   -justify-content:space-around;được sử dụng để căn chỉnh các phần tử con trong container flex theo chiều ngang sao cho chúng sẽ được phân bố một cách đều, với khoảng trống đồng đều ở giữa chúng và ở hai bên của container/*
+*/
+/* Lưu ý  trường hợp bạn dùng cả flex-direction và flex-wrap chúng ta có thể biến đổi chúng thành flex-flow:start - end (start là viết bằng lệnh flex-direction còn end thì viết bằng lệnh là flex-wrap  */ */
+
+
+/* Thuộc tính box-shadow */
+/* box-shadow: 0 1px 2px 0 rgba(0,0,0,.1) 
+Số 0 đầu tiên là bóng đổ của trục hoành và nó sẽ đổ về phía bên phải của phần tử của hình ảnh 
+Số 1px là bóng đổ của trục tung và nó sẽ đổ về phía bên dưới của phàn tử của hình ảnh 
+Số 2px đó là bóng đổ khi chúng ta càng tăng giá trị của nó thì bóng đổ chung của các thành phần nó sẽ mờ dần theo 
+Số 0 tiếp theo đó là bóng đổ khi chúng ta càng tăng gía trị thì nó càng làm cho bóng đổ chung càng tănhg lên mấy lần như vậy 
+Còn phần tử cuối box-shadown thì nó là màu của phần tử box-shadow 
+
+*/
+
+/* Thuộc tính TRANSFORM
+
+    transition:transform linear 0.1s; (Lệnh này giúp phần tử có thể hoạt ảnh và di chuyển được nó khi hover vào 
+    Muốn thuộc tính này hoạt động thì chúng ta hãy dùng thêm 1lệnh đó là transform : transalce(x , y ) X tượng trưng cho trục hoành nằm ngang và trục Y tượng trưng cho trục tung nằm dọc , càng tăng chỉ số cao lên thì nó sẽ dịch chuyển bấy nhiêu  
+*/
+
+/** Tạo 1 input với lệnh bằng checkbox , khi chúng ta tích vào ô checkbox thì màu sẽ hiện lên chữ dấu tích 
+vd :  <input type="checkbox" name="" class="nav__input"  id="nav-mobile-input">
+      <h1>Hello </h1>
+chúng ta css cho nó bằng 
+.nav__input ~ h1 {
+    color:red;//Lệnh này nó sẽ gán cho nó element h1 bằng màu red  và ~ có thể kết hợp dấu ~ để gán cho nó được 
+}
+.nav__input:checked ~ h1 {
+    color:red;// Lệnh này sẽ hoạt động khi chúng ta nhấp vào ô tích của nó , và element sẽ hiện lên phần tử màu đỏ
+}
+
+/* Kiến thức mới */
+/* lệnh css :nth-of-type này có tác dụng có thể điều chỉnh các màu liên tục khác nhau qua các khối từ khối 1 đến khối 3  */
+/* Như chúng ta đã thấy về 1 đoạn mã HTML đó , thì các thẻ li từ trước mình đã xét tính display theo chiều ngang từ trái sang phải , mình muốn vận dụng css như trên 
+để đặt các màu lặp đi lặp lại , đó chỉ là mình vd 3 cái thẻ li thì quá ít , mà mình muốn cho 3 màu khác nhau đều có tại vị trí đó , mình muốn cứ 3 thẻ li thì lại vòng lại 1 lần màu như vậy  */
+.mobile-catelory__item:nth-of-type(3n){background-color:aqua}/*ở đây 3n có nghĩa là vị trí màu ở thứ tự số 3 */
+.mobile-catelory__item:nth-of-type(3n +2){background-color:rgb(225, 0, 255)}/*3n + 2 có nghĩa là nó ở vị trí số 2 */
+.mobile-catelory__item:nth-of-type(3n +1){background-color:rgb(146, 21, 21)}/*3n + 1 có nghĩa là nó ở vị trí số 1 */
+/* 
+    <li class="mobile-catelory__item">
+    <a href="" class="mobile-catelory__link">Dụng cụ & thiết bị tiện ích </a>
+    </li>
+    <li class="mobile-catelory__item">
+    <a href="" class="mobile-catelory__link">Dụng cụ & thiết bị tiện ích </a>
+    </li>
+    <li class="mobile-catelory__item">
+    <a href="" class="mobile-catelory__link">Dụng cụ & thiết bị tiện ích </a>
+    </li>
+ */
+
+/* 
+**ẨN MỜ PHẦN THANH SCROBAR TRƯỢT NGANG 
+.mobile-catelory__list{
+  display:flex;
+  max-width:100%;
+  overflow-x: auto;
+  list-style: none;
+  padding:0 5px;
+  
+}
+.mobile-catelory__list::-webkit-scrollbar{
+    display: none;
+}
+
+*/
+/**Cách tạo ra dấu ...
+  overflow:hidden;Cái này có nghĩa là nó vượt quá kích thước thì nó sẽ cắt phần bị ân 
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2; Số 2 này là hiển thị ở số dòng 
+*/
+
+/* Cách để người khác không select được chữ (không coppy được nội dung mà bạn đã viết ra ở văn bản )
+Bảo vệ quyền riêng tư: Ngăn chặn người dùng sao chép hoặc chọn nội dung trang web, đặc biệt là hữu ích khi bạn có nội dung mà bạn muốn giữ bảo mật hoặc ngăn chặn việc sao chép lớn.
+Cải thiện trải nghiệm người dùng: Ngăn chặn việc chọn văn bản có thể hữu ích trong một số trường hợp để tránh hiển thị một phần của giao diện người dùng không mong muốn khi người dùng thực hiện các tác vụ trên trang.
+  user-select:none;
+  -webkit-user-select:none;nếu trong mục css của bạn có dùng webkit thì khi sử dụng user phải kèm nó vài mới thêm độ chính xác cao 
+*/
+
+/* Có những vấn đề về thẻ a hoặc thẻ input thì khi chúng ta ấn vào nó sẽ xuất hiện ra 1 cái highlight có màu xanh biển nhạt 
+ muốn chúng nó mất khi trải nghiệm người dùng nhấn vào không có màu nền highlight thì chúng ta dùng thuộc tính 
+-webkit-tap-highlight-color:tranparent;Sẽ làm mờ đi phần highlight đó ;
+*/
+
+/* TẠO 1 CHUYỂN ĐỘNG DỊCH SANG PHẢI TẦM -4PX ĐỂ GÂY ĐẸP 
+
+       HTML
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Trang điểm mặt</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Trang điểm môi</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Trang điểm mắt</a>
+                                </li>
+                            </ul>
+        CSS 
+                            .category-item__link {
+                                position: relative;
+                                transition: right linear 0.1s ;
+                                right:0;
+                            }
+                            .category-item__link:hover {
+                                right:-4px;
+                                
+                            }  
+*/
+

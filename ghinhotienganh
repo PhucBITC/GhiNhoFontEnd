@@ -1,0 +1,79 @@
+"<>Các phép tính"
+Add :Cộng
+Apart from: Trừ 
+Core : Nhân 
+Divide : Chia 
+decimal:số thập phân 
+exponential: lũy thừa 
+divide to get the remainder : Chia lấy số dư 
+integers:số nguyên
+counted : được tính 
+negative: số âm 
+
+"<>Các loại dấu "
+quotes: dấu ngoặc kép ""
+backticks: dấu tích ngược ``
+curly braces :dấu ngoặc nhọn {}
+commas : dấu phẩy ,
+separated : cách nhau 
+square brackets : dấu ngoặc vuông []
+floating-point :Dấu phẩy động 
+parentheses : dấu ngoặc đơn ''
+
+"<>Các từ dịch nghĩa"
+most :hầu hết             perform : trình diễn       indexes:Chỉ mục            Something : hành động   However:tuy nhiên 
+type :kiểu (loại)         particular : cụ thể        zero-based: Dựa trên số 0  moves: dy chuyển        loop through: lặp lại 
+types:các loại kiểu       executed :thực thi         means:có nghĩa             over: qua               specific: cụ thể 
+invokes : gọi             containing :chứa đựng      find : tìm thấy            zero : SỐ KHÔNG         solution:giải pháp 
+short:ngắn                defined : được xác định    expression: biểu thức      storing: lưu trữ        hold:giữ 
+real : thực tế            keyword : từ khóa          without : không có         fracters :Kí tự         exactly:chính xác
+later: sau đó             Syntax : cú pháp           Create : tạo nên           surrounding:xung quanh  simplicity:sự đơn giản 
+tutorial : hướng dẫn      code : mã                  display:hiện thị           Template:bản mẫu        
+stored : được lưu trữ     of : của                   occurs: xảy ra             misunderstand :Hiểu sai
+format: định dạng         block : khối               Automatically: tự động     Methods:phương pháp
+array : mảng              also : cũng                reaches : đạt tới          Basic:nền tảng 
+items : mục               by : qua                   executing: thực thi        position: vị trí 
+object: đối tượng         emptied : trống rỗng       statement:câu lệnh         slice  : cắt 
+properties : thuộc tính   any : bất kì               reuse :Tái sử dụng         omit : bỏ sót 
+value : giá trị           followed : theo sau        Accessing :truy cập        method : phương pháp 
+invoked: được triệu tập  contain :bao gồm           incorrect:không đúng       rest  : còn lại 
+pairs : cặp               contain :bao gồm           above: bên trên            slice : lát 
+describe :mô tả       contain letters:Chứa chữ cái   above: làm                 portion : phần 
+correct :chính xác        digits : chữ số            declared: khai báo         Concatenate  : nối 
+following: tiếp theo      parameters : thông số      accessed:đã truy cập       convert : chuyển 
+function : chức năng(hàm)      inside : bên trong    things : nhứng điều        property : thuộc tính 
+Execute : thực hiện       definition: định nghĩa     happen: xảy ra             uppercase : chữ hoa 
+arguments : đối số        invoked : được triệu tập   react:phản ứng             lower case : chữ thường 
+local : cục bộ            
+joins : nối
+
+
+** Đây là phần dịch tiếng anh của free code camp 
+Emphasize :Nhấn mạnh (em pha sít)            interactive : tương tác 
+ordered : thứ tự (ô đờ )                     curriculum : chương trình giảng dạy
+similar : tương tự (sim mi lờ)               basic  : nền tảng 
+unordered : không có thứ tự (u nờ đờ rựt)    knowledge  : kiến thức 
+numbered :được đánh số (num bờ ựt)           standard : tiêu chuẩn 
+displayed: hiện thị (dít play )              create : tạo nên 
+nest :lồng                                   boilerplate  : bản mẫu 
+improve: cải thiện                           Include  : bao gồm 
+accessibility : khả năng tiếp cận            stylesheet : bất định kiểu 
+attribute :thuộc tính                        Finally : cuối cùng 
+strong: mạnh                                 set to : được đặt 
+indicate  :chỉ ra                            submitting : nộp 
+urgent: khẩn cấp                             chapters : chương 
+form :biểu mẫu                               react : phản ứng 
+indicates :chỉ ra                            standard : tiêu chuẩn 
+should :nên                                  platform : nền tảng 
+be sent : được gửi                           interface: giao diện 
+allows :cho phép                             allows : cho phép 
+several ways : có 1 số cách                  structure : cấu trúc 
+ to collect :để thu nhập 
+self-closing : tự đóng 
+many kinds: nhiều loại 
+create: tạo nên 
+password field : trường mật khẩu 
+control : con trỏ 
+let : cho phép 
+prevent: chặn 
+

@@ -1,0 +1,53 @@
+// chú thích 1 dòng là dùng cái này '
+/* Chú thích nhiều dòng thì dùng cái này  */
+//Keyword là những từ được sủ dụng trong những cấu trúc hoặc câu lệnh nào đó và là duy nhất 
+// Câu lệnh là một lệnh nào đó do người ghi ra , và yêu cầu máy tính thực hiện  , các câu lệnh cách biệt nhau bằng dấu chấm phẩy; 
+// Khối lệnh là tập hợp các câu lệnh được đặt trong cặp dấu {}, khối lệnh là một khái niệm quan trọng , nó giúp nhóm các lệnh lại với nhau , tạo nên nhiều ý nghĩa trong code 
+
+/*
+BIẾN , BIẾN CỤC BỘ , HẰNG SỐ 
+// Biến là đại diện cho 1 phân vùng bộ nhớ nhất định , giúp lưu trữ các biến cần thiết , gọi ra 1 biến cũng tương đương với việc ta lấy ra giá trị của 1 vùng bộ nhớ nào đó 
+// Trong javascrip , một biến chỉ được có thể sử dụng khi nó được khai báo 
+// Biến cục bộ là biến chỉ có thể sử dụng nội bộ bên trong một khối lệnh hay một khối hàm
+{
+    var a = 1;
+    console.log(a);
+}
+// Biến toàn cục là biến có thể dùng bất kì vị trí nào bên trong chương trinh 
+var c = 10 
+{
+    var a = 1;
+    console.log(c); Biến c là biến toàn cục , cho nên là khi console.log(c) thì nó vẫn chạy như thường . 
+}
+// Hằng số là một giá trị được khởi tạo một lần trong chương trình và là bất liến (không thể thay đổi )
+const name = 'phuc'
+console.log(name)
+ */
+
+/* Var  & Let*/
+// Từ khóa let là khởi tạo một biến cục bộ, chỉ sử dụng bên trong khối lệnh nơi đó được khởi tạo  
+// Từ khóa Var khởi tạo một biến toàn cục, truy cập từ bất kì vị trí nào trong chương trình 
+{
+    var a = 2;
+    console.log(a)//in ra 2 
+}
+//console.log(a) trong trường hợp này để console.log chạy bên ngoài thì vẫn ra giá trị là 2 vì biến var có chức năng là biến toàn cục , cho nên viết ngoài hay trong nó cũng đều chạy 
+
+{
+    let a =1 ;
+    console.log(a)//In ra sẽ là 1 
+}
+console.log(a)// Trường hợp này thì chạy console.log bên ngoài không được vì nó là sử dụng biến let , mà biến let lại chỉ được sử dụng trong cục bộ cho nên viêt ngoài nó sẽ không chạy , chỉ có thể viết trong khối mã 
+
+// Trường hợp tiếp 
+var a =1 
+var a =5
+console.log(a)// Nó sẽ được gán ra giá trị là 5 
+
+let a =1 
+let a =5
+console.log(a)/// Thì nó sẽ lỗi vì nó không cho phép , let chỉ cho bạn khởi tạo 1 lần và không được dùng biến khác nữa 
+
+//let t =1 
+//var t =5
+console.log(t)// 2 cái này trường hợp này nó cũng không chấp nhận 

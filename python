@@ -1,0 +1,63 @@
+* ĐÂY LÀ CÁC THUỘC TÍNH TRONG PYTHON
+# các dấu xuống dòng đoạn văn 
+\n : là dấu để xuống dòng trong văn bản 
+\t : nó sẽ cách ra 1 đoạn trong chữ 
+\\: Nó sẽ tạo ra 1 dấu gạch chéo trong 2 chữ đó 
+\': Nó sẽ giống như mặc định và khoong có gì thay đổi , loại ký tự này nó sẽ được dùng ít 
+\"Hello Word\" Nó sẽ in ra hai dòng dấu ngoặc kép
+
+
+* ĐÂY là lệnh xuất số mũ trong python 
+a = int(input("nhap so a :"))
+b = int(input("nhap so b :"))
+print("Ket qua ",math.pow(a,3)+math.pow(b,3)+a*b)
+
+* Đây là lệnh vòng lặp trong python 
+for dem in range(1,11):
+   print('Xin chao python')
+Lệnh này sẽ cho chạy giá trị chạy từg 1 đến 11 lần 
+
+* Đây là cách hoán vị trong python 2 số 
+a =int(input("số a :"))
+b =int(input("số b: "))
+print(f"Trước khi hoán vị: a = {a}, b = {b}")
+temp = a
+a = b
+b = temp
+print(f"Sau khi hoán vị: a = {a}, b = {b}")
+
+* Đây là cách để bor ngày tháng trong python 
+a= int(input("Ngày:"))
+b= int(input("Tháng:"))
+c= int(input("Năm:"))
+print("kết qua :",a,"/",b"/",c)
+
+* Đây là biến để tính ra giá trị đồng hồ 
+s = int(input("Nhập số giây:"))
+print("số giờ:",s//3600)
+print("số phut:",s%3600//60)
+print("số giây:",s%3600%60)
+print("Hiện Thị Giờ: ",s//3600,"giờ",s%3600//60,"phút",s%3600%60,"giây",)
+
+*Lệnh IF , ELSE 
+-IF else bình thường 
+a = 10 
+b = 17 
+if a < b:
+  print("Đưa ra kết quả đúng")
+else:
+  print("Đưa ra kết quả sai")
+
+-IF ELSE gán nhiều gía trị 
+a = int(input("Số Nguyên a:"))
+b = int(input("Số Nguyên b:"))
+c = int(input("Số Nguyên c:"))
+if a > b and c :
+  print(a," là số lớn nhất")
+elif b > a and c :
+  print(b," là số lớn nhất")
+else :
+  print(c," là số lớn nhất")
+
+-IF ELSE lồng nhau 
+
